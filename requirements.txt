@@ -1,5 +1,4 @@
-import streamlit as st
-import pickle
-import librosa.feature as lib_fea
-import numpy as np
-from pydub import AudioSegment
+librosa==0.9.1
+numpy==1.21.0
+pydub==0.25.1
+streamlit==1.9.2
