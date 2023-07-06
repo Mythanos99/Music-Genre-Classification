@@ -1,4 +1,4 @@
-#Music Genre Classification
+# Music Genre Classification
 Developing a ML model to classify a audio file to 10 music genre and then run the app on streamlit.
 ![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/29bf1b39-6139-4492-9290-f896a0e3dcf5)
 
@@ -33,7 +33,7 @@ The dataset for the project is taken form the GTZAN dataset.
 The GTZAN dataset contains 100 audio files of 30 seconds each of all 10 genres. To increase the
 proportion of data the audio files are further broken into 10 parts each of 3 seconds
 
-#### Visualization of the Dataset
+### Visualization of the Dataset
 Violin plot:The violin plot helps us understand the distribution of numerical data
 ![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/b04dbe53-c66b-464a-ab08-f26aba147357)
 
@@ -42,9 +42,10 @@ MFCC’s plot:The MFCC plot for different genre are plotted.The MFCC plot tries 
 the capture the time power spectrum of the audio signals.Further the plots of coorealation,chroma
 shift,zero crossing rate,roll off and spectral features were plotted to help us understand the features
 which helped us in feature extraction.
+
 ![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/8a4dbda6-1531-4a5f-95f7-f5b94f592c25)
 
-#### Evaluation of the Models
+### Evaluation of the Models
 
 The models implemented were evaluated using techniques like -accuracy,precision , recall ,f1 score,
 Confusion matrix , ROC plots and cross validation scores.Table 1 contains the score of the mean
@@ -55,7 +56,8 @@ differernt models.
 
 *The best scoring model LIGHTGBM was hyper-parameterised further.*
 
-###Result
+### Result
+
 ![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/e917cbc9-6199-418a-b691-af5a4dfcb8e2)
 For very less false positive rate we have achieved more than 0.8 accuracy for almost all classes of
 music given in the dataset.Even the area under the curve for all the classes is greater than 0.99.
