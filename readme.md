@@ -1,5 +1,6 @@
 Developing a ML model to classify a audio file to 10 music genre and then run the app on streamlit.
-![Screenshot](examples\images\Screenshot 2023-07-06 133432.png)
+![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/29bf1b39-6139-4492-9290-f896a0e3dcf5)
+
 
 To run the app run the following code block in the terminal of the root directory
 ```
