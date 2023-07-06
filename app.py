@@ -3,13 +3,15 @@ import pickle
 import librosa
 import librosa.feature as lib_fea
 import numpy as np
+import ffmpeg as ffmpeg   
+# import ffprobe-python as ffprobe
 from pydub import AudioSegment
 # AudioSegment.converter = "C:\\ffmpeg\\bin\\ffmpeg.exe"
 # AudioSegment.ffmpeg = "C:\\ffmpeg\\bin\\ffmpeg.exe"
 # AudioSegment.ffprobe ="C:\\ffmpeg\\bin\\ffprobe.exe"
 # AudioSegment.converter = "ffmpeg.exe"
 # AudioSegment.ffmpeg = "ffmpeg.exe"
-AudioSegment.ffprobe ="ffprobe.exe"
+# AudioSegment.ffprobe ="ffprobe.exe"
 
 # @st.cache(allow_output_mutation=True)
 # @st.cache(suppress_st_warning=True) 
@@ -52,7 +54,7 @@ if file is None:
     st.text("Please upload an audio file")
 else:
     # image = Image.open(file)
-    sample_rate = 44100 
+    sample_rate = 41100/2
     input_file = file
     output_file = 'result.wav'
     sound = AudioSegment.from_mp3(input_file)
