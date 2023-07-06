@@ -3,7 +3,7 @@ import pickle
 import librosa
 import librosa.feature as lib_fea
 import numpy as np
-import ffmpeg as ffmpeg   
+# import ffmpeg as ffmpeg   
 # import ffprobe-python as ffprobe
 from pydub import AudioSegment
 # AudioSegment.converter = "C:\\ffmpeg\\bin\\ffmpeg.exe"
