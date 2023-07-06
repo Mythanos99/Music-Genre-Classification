@@ -45,6 +45,16 @@ which helped us in feature extraction.
 
 ![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/8a4dbda6-1531-4a5f-95f7-f5b94f592c25)
 
+### Models used
+The following models were run 
+* Decision Tree Classifier
+* Gradient Boosting Classifier
+* Random Forest Classifier
+* Extra Tree Classifier
+* Bagging Classifier
+* LGBM Classifier
+
+
 ### Evaluation of the Models
 
 The models implemented were evaluated using techniques like -accuracy,precision , recall ,f1 score,
@@ -59,6 +69,7 @@ differernt models.
 ### Result
 
 ![image](https://github.com/Mythanos99/Music-Genre-Classification/assets/76528489/e917cbc9-6199-418a-b691-af5a4dfcb8e2)
+
 For very less false positive rate we have achieved more than 0.8 accuracy for almost all classes of
 music given in the dataset.Even the area under the curve for all the classes is greater than 0.99.
 As the false positive rate increases forward the true positive rate tends to 1. The saturation level
