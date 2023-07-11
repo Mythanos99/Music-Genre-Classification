@@ -5,7 +5,7 @@ Developing a ML model to classify a audio file to 10 music genre and then run th
 
 To run the app run the following code block in the terminal of the root directory
 ```
-pip install requirements.txt
+pip install  -r requirements.txt
 sudo apt get packages.txt
 streamlit run app.py
 ```
