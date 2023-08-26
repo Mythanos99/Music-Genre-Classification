@@ -10,7 +10,7 @@ sudo apt get packages.txt
 streamlit run app.py
 ```
 To deploy the app upload the code to a repository in github and select the deploy app on streamlit website.
-###Docker Support
+### Docker Support
 Docker support is enabled for the app. To push  the image on docker hub follow the following code
 ```
 INSTALL DOCKER
