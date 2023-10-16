@@ -4,4 +4,3 @@ pydub
 streamlit
 lightgbm
 numba==0.57.1
-python==3.10.11
