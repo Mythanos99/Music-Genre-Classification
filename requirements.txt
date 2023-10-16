@@ -3,3 +3,4 @@ numpy==1.21.1
 pydub
 streamlit
 lightgbm
+numba==0.57.1
