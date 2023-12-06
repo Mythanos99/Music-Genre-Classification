@@ -15,6 +15,7 @@ from pydub import AudioSegment
 
 # @st.cache(allow_output_mutation=True)
 # @st.cache(suppress_st_warning=True) 
+st.set_option('deprecation.showfileUploaderEncoding', False)
 @st.cache_resource
 def load_model():
   model=pickle.load(open('model.pkl','rb'))
